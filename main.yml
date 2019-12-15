@@ -1,6 +1,6 @@
 galaxy_info:
   author: 0ta2
-  description: Install Git
+  description: Setup Timezone
   license: 'license (MIT)'
   min_ansible_version: 2.9
   platforms:
@@ -16,6 +16,6 @@ galaxy_info:
         - 'disco dingo'
         - eoan
   galaxy_tags:
-    - development
+    - timezone
     - system
-    - git
+    - server
