@@ -1,6 +1,0 @@
-# Molecule managed
-
----
-package:
-  git:
-    installed: true
