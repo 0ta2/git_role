@@ -26,3 +26,5 @@ jobs:
       - name: Test with molecule
         run: |
           MOLECULE_DISTRO=${{ matrix.MOLECULE_DISTRO }} molecule test
+        env:
+          MOLECULE_DISTRO: ${{ matrix.MOLECULE_DISTRO }}
