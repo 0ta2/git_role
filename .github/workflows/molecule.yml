@@ -20,7 +20,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v1
+        uses: mxschmitt/action-tmate@v2
 
       - name: Install dependencies
         run: |
